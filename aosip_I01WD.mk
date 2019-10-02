@@ -5,14 +5,14 @@
 #
 
 $(call inherit-product, device/asus/I01WD/device.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := I01WD
 PRODUCT_MANUFACTURER := asus
 PRODUCT_MODEL := ASUS_I01WD
-PRODUCT_NAME := lineage_I01WD
+PRODUCT_NAME := aosip_I01WD
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
