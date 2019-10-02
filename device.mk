@@ -31,6 +31,9 @@ $(call inherit-product, vendor/gapps/common/common-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
+# Recovery
+TARGET_RECOVERY_DENSITY := hdpi
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
