@@ -1,6 +1,17 @@
 [
   {
-    "repository": "android_kernel_asus_sm8150",
-    "target_path": "kernel/asus/sm8150"
+    "repository": "LineageOS/android_kernel_asus_sm8150",
+    "target_path": "kernel/asus/sm8150",
+    "branch": "lineage-17.0"
+  },
+  {
+    "repository": "kdrag0n/proprietary_vendor_asus",
+    "target_path": "vendor/asus",
+    "branch": "ten"
+  },
+  {
+    "repository": "MindTheGapps/vendor_gapps",
+    "target_path": "vendor/gapps",
+    "branch": "qoppa"
   }
 ]
