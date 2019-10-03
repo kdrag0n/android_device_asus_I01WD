@@ -25,7 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product-if-exists, vendor/asus/I01WD/I01WD-vendor.mk)
 
 # MindTheGapps
-$(call inherit-product, vendor/gapps/common/common-vendor.mk)
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
